@@ -24,7 +24,7 @@ int main(void) {
         printf(" > %d 번째 시도 : ", i);
 
         // 보여줄 병 종류를 선택
-        for (int j =0; j < cntShowBottle; j++) {
+        for (int j = 0; j < cntShowBottle; j++) {
             int randBottle = rand() % 4; // 0 ~ 3
             // 아직 선택되지 않은 병이면, 선택 처리
             if (bottle[randBottle] == 0) {
